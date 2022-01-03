@@ -7,9 +7,9 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
     "./index.html",
     //the below give me an error or uncaught reference - addAll doesn't work
-    // "./css/style.css",
-    // "./js/index.js",
-    // "./js/idb.js"
+    "./css/style.css",
+    "./js/index.js",
+    "./js/idb.js"
   ];
 
 //install service worker
